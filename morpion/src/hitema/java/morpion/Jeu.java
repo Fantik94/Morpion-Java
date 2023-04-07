@@ -30,7 +30,7 @@ public class Jeu {
                 System.out.println("Le joueur " + joueurActuel.getSymbole() + " à gagné !");
                 fin = true;
             } else if (plateau.estPlein()) {
-                System.out.println("Match nul !");
+                System.out.println("Match nul, c'est con hein !");
                 fin = true;
             } else {
                 joueurActuel = (joueurActuel == joueur1) ? joueur2 : joueur1;
